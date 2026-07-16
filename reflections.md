@@ -19,7 +19,7 @@ appropriate.)
 <!-- TODO -->
 `What I learned in this lesson is the different styles you can input into the visual studios. Such as bolding, headers, codes, and italic text.`
 ## Lesson 3 — HTML
-<I learned how to work within the index along with how to make a live sheet go into my github account. Learning about how to imput text in certain styles such as bolding it and creating bullet points within my resume. Also helping with building my resume and what to expect to write on it. >
+I learned how to work within the index along with how to make a live sheet go into my github account. Learning about how to imput text in certain styles such as bolding it and creating bullet points within my resume. Also helping with building my resume and what to expect to write on it.
 
 ## Lesson 4 —  CSS
 <!-- TODO -->
