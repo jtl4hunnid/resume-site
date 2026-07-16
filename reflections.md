@@ -7,13 +7,17 @@ appropriate.)
 
 ## Lesson 0 — GitHub basics
 <!-- TODO -->
-
+- I learned new vocabulary words used in computer tech around github.
+- # New words such as "commit" and "repo".
+- ## And also remebering that I have a github account.
 ## Lesson 1 — VS Code + connecting to GitHub
 <!-- TODO -->
+*What I learned in lesson 1 was the process of push and pull into my computer.*
 
+**Also on how to download visual studio onto a computer.**
 ## Lesson 2 — Markdown
 <!-- TODO -->
-
+`What I learned in this lesson is the different styles you can input into the visual studios. Such as bolding, headers, codes, and italic text.`
 ## Lesson 3 — HTML
 <!-- TODO -->
 
