@@ -22,7 +22,7 @@ appropriate.)
 I learned how to work within the index along with how to make a live sheet go into my github account. Learning about how to imput text in certain styles such as bolding it and creating bullet points within my resume. Also helping with building my resume and what to expect to write on it.
 
 ## Lesson 4 —  CSS
-<!-- TODO -->
+I learned how to use more codes along with making a theme for my website to look bold making my resume look better.
 
 ## Lesson 5 — JavaScript
 <!-- TODO -->
