@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>broh what?----</title>
+
+<!-- Font. Loaded with <link>, never a CSS @import - @import makes the browser
+     wait for the stylesheet before it even discovers the font. -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap">
+
+<!-- Tailwind. No install, no build step. The orange console warning is expected - ignore it. -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+  tailwind.config = { theme: { extend: {
+    colors: {
+      ink: '#1B1B1B',   // Body text. LOCKED - 17:1 contrast on white. Do not change.
+
+      /* ============ PALETTE - EDIT THESE THREE ONLY ============ */
+      brand:  '#0C2559',
+      accent: '#2C62CC',
+      pop:    '#FFE019',
+      /* ============ END PALETTE ============ */
+    },
+    fontFamily: { sans: ['Sora', 'ui-sans-serif', 'system-ui', 'sans-serif'] },
+    fontSize: {
+      // clamp() = fluid type. Scales smoothly with the window, no breakpoints needed.
+      display: ['clamp(3rem, 12vw, 8rem)', { lineHeight: '0.95', letterSpacing: '-0.03em' }],
+      huge:    ['clamp(2rem, 6vw, 3.5rem)', { lineHeight: '1.05', letterSpacing: '-0.02em' }],
+    },
+    maxWidth: { site: '1550px' },
+  }}}
+</script>
+
+<style>
+  @media (prefers-reduced-motion: reduce) {
+    *, ::before, ::after {
+      animation-duration: .01ms !important;
+      transition-duration: .01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+</style>
+</head>
+
+<body class="bg-ink font-sans text-white leading-normal">
+
+<!-- ===================== ONLY EDIT BELOW THIS LINE ===================== -->
+
+<!-- HEADER -->
+<header id="top" class="px-6 pb-16 pt-20">
+  <div class="mx-auto max-w-5xl">
+    <p class="mb-6 text-sm font-bold uppercase tracking-[0.3em] text-pop">Broh this is made by John</p>
+    <h1 class="text-display font-bold">BROH<br>Hi</h1>
+
+    <div class="mt-10 flex flex-col items-start gap-6 border-t-2 border-white/20 pt-8 sm:flex-row sm:items-center">
+
+      <!-- PHOTO. Using initials instead? Delete this <img> and uncomment the <div> below it. -->
+     <div class="headshot-initials">John... JOHNNNNN???? John!!!</div>
+      <!-- <div class="flex h-24 w-24 shrink-0 items-center justify-center bg-pop text-3xl font-bold text-ink">YN</div> -->
+
+      <p class="max-w-md text-lg text-white/80">
+    </div>
+  </div>
+</header>
+
+<main class="mx-auto max-w-3xl px-6 py-10">
+  <h1 class="text-4xl font-bold text-brand">My favorite games</h1>
+  <p class="mt-4 text-base leading-relaxed">
+    Marvel Rivals, Minecraft, Roblox, a couple others too??
+  </p>
+</main>
+
+
+
+<section id="contact" class="border-t-2 border-white/20 `dark:border-ink/20` py-16">
+    <div class="grid gap-8 md:grid-cols-[200px_1fr]">
+      <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-pop">Uhmmmm</h2>
+      <div>
+        <a href="#"
+           class="text-huge font-bold text-white underline decoration-pop decoration-4 underline-offset-8 transition hover:text-pop focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-pop">
+          YesYESnoNOnYEoS.
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+
+</main>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Center Align Text</title>
+   <style>
+       .center-text {
+           text-align: center; /* Centers the text horizontally */
+       }
+   </style>
+</head>
+<body>
+   <div class="center-text">
+       <h1>AHHHHHHHHHHHHHHH</h1>
+       <a href="index(t) bunz.html" class="text-pop underline">Back to my resume</a>
+   </div>
+</body>
+</html>
+
+<!-- ===================== ONLY EDIT ABOVE THIS LINE ===================== -->
+
+</body>
+</html>
