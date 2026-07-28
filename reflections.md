@@ -25,16 +25,18 @@ I learned how to work within the index along with how to make a live sheet go in
 I learned how to use more codes along with making a theme for my website to look bold making my resume look better.
 
 ## Lesson 5 — JavaScript
-<!-- TODO -->
+I learned how to connect a photo/image to VS code using JavaScript.
 
 ## Lesson 6 — Building my resume
-<!-- TODO -->
+I learned the requirments along with what to and not to put on my resume to make myself look good as a canadite to gain an interview.
 
 ## Lesson 7 — My second page
-<!-- TODO -->
+I learned how to create a page and be able to link the two together to go from one page to another on VS code.
 
 ## Lesson 8 — The homepage / working as a group
-<!-- TODO -->
+ John Lim
+A High school student in his senior year that learned how to code a bit this summer.
+- **Link:** template/huh/index(t)bunz.html
 
 ## Lesson 9 — Putting my site online
 <!-- TODO -->
