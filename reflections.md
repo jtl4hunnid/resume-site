@@ -36,8 +36,6 @@ I learned how to use more codes along with making a theme for my website to look
 ## Lesson 8 — The homepage / working as a group
 <!-- TODO -->
 
-## Lesson 9 — Understanding cloud deployment (if we got to it)
+## Lesson 9 — Putting my site online
 <!-- TODO -->
 
-## Lesson 10 — Watching the live deploy (if we got to it)
-<!-- TODO -->
