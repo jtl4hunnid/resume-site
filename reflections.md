@@ -45,7 +45,7 @@ I learned how to create a site using VS code and Github which ive never done bef
 I learned in VS code how to use transitons and small animations into my website.
 
 ## Lesson 11 — My first interactive feature
-<!-- TODO -->
+I read how to make images interactive along with adding into javascript for said commands.
 
 ## Lesson 12 — Pulling live data
-<!-- TODO -->
+I learend how to put an interative button that shows live data of images and text.
