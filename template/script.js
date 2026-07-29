@@ -34,6 +34,8 @@ toggleButton.addEventListener('click', function () {
 
 // RANDOM DOG ----------------------------------------------
 
+// RANDOM DOG ----------------------------------------------
+
 document.getElementById('dog-btn').addEventListener('click', function () {
 
   // 1. Ask the dog service for a random photo.
@@ -49,11 +51,3 @@ document.getElementById('dog-btn').addEventListener('click', function () {
       dogImg.classList.remove('hidden');  // reveal it
     });
 });
-    .then(function (data) {
-      const dogImg = document.getElementById('dog-img');
-      dogImg.src = data.message;
-      dogImg.classList.remove('hidden');
-    })
-    .catch(function () {
-      alert('Could not reach the dog service — check your internet and try again.');
-    });
