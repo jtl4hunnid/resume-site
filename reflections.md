@@ -41,3 +41,11 @@ A High school student in his senior year that learned how to code a bit this sum
 ## Lesson 9 — Putting my site online
 <!-- TODO -->
 
+## Lesson 10 — Adding motion
+<!-- TODO -->
+
+## Lesson 11 — My first interactive feature
+<!-- TODO -->
+
+## Lesson 12 — Pulling live data
+<!-- TODO -->
