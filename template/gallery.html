@@ -88,8 +88,24 @@
   </section>
 
 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center-img {
+  display: block;       /* Make image a block element */
+  margin-left: auto;    /* Auto margins center horizontally */
+  margin-right: auto;
+  width: 300px;         /* Optional: set width */
+}
+</style>
+</head>
+<body>
 
-</main>
+<img src="testt.jpg" alt="Example" class="center-img transition hover:scale-105">
+
+</body>
+</html>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -110,6 +126,16 @@
    </div>
 </body>
 </html>
+
+<!-- Random dog widget -->
+<div class="my-8 text-center">
+  <button id="dog-btn" class="rounded border-2 border-pop px-5 py-2 transition hover:scale-105">
+    Show me a dog Broh 🐶
+  </button>
+  <img id="dog-img" src="" alt="A random dog" class="mx-auto mt-4 hidden max-h-80 rounded-lg shadow-lg">
+</div>
+
+<script src="script.js"></script>
 
 <!-- ===================== ONLY EDIT ABOVE THIS LINE ===================== -->
 

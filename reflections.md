@@ -39,10 +39,10 @@ A High school student in his senior year that learned how to code a bit this sum
 - **Link:** template/huh/index(t)bunz.html
 
 ## Lesson 9 — Putting my site online
-<!-- TODO -->
+I learned how to create a site using VS code and Github which ive never done before.
 
 ## Lesson 10 — Adding motion
-<!-- TODO -->
+I learned in VS code how to use transitons and small animations into my website.
 
 ## Lesson 11 — My first interactive feature
 <!-- TODO -->
