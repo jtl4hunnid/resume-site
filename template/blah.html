@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Season One: FORALL----</title>
+
+<!-- Font. Loaded with <link>, never a CSS @import - @import makes the browser
+     wait for the stylesheet before it even discovers the font. -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap">
+
+<!-- Tailwind. No install, no build step. The orange console warning is expected - ignore it. -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+  tailwind.config = { theme: { extend: {
+    colors: {
+      ink: '#1B1B1B',   // Body text. LOCKED - 17:1 contrast on white. Do not change.
+
+      /* ============ PALETTE - EDIT THESE THREE ONLY ============ */
+      brand:  '#0C2559',
+      accent: '#2C62CC',
+      pop:    '#FFE019',
+      /* ============ END PALETTE ============ */
+    },
+    fontFamily: { sans: ['Sora', 'ui-sans-serif', 'system-ui', 'sans-serif'] },
+    fontSize: {
+      // clamp() = fluid type. Scales smoothly with the window, no breakpoints needed.
+      display: ['clamp(3rem, 12vw, 8rem)', { lineHeight: '0.95', letterSpacing: '-0.03em' }],
+      huge:    ['clamp(2rem, 6vw, 3.5rem)', { lineHeight: '1.05', letterSpacing: '-0.02em' }],
+    },
+    maxWidth: { site: '1550px' },
+  }}}
+</script>
+
+<style>
+  @media (prefers-reduced-motion: reduce) {
+    *, ::before, ::after {
+      animation-duration: .03ms !important;
+      transition-duration: .03ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+   @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  body { animation: fadeInUp 0.6s ease-out; }
+</style>
+</head>
+
+<body class="bg-ink font-sans text-white leading-normal">
+
+<!-- ===================== ONLY EDIT BELOW THIS LINE ===================== -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multi-Image Banner</title>
+<style>
+    /* Reset default margins */
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Banner container */
+    .banner {
+        display: flex; /* Arrange images side-by-side */
+        overflow: hidden; /* Hide overflow if images are larger */
+        height: 300px; /* Fixed height for banner */
+    }
+
+    /* Each image container */
+    .banner img {
+        width: 100%; /* Make images responsive */
+        height: 100%;
+        object-fit: cover; /* Crop images to fit without distortion */
+    }
+
+    /* Optional: Equal width for each image */
+    .banner > div {
+        flex: 1;
+    }
+
+    /* Optional overlay text */
+    .overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(250, 250, 250);
+        font-size: 2rem;
+        background: rgba(67, 56, 56, 0.5);
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    /* Positioning for overlay */
+    .banner-wrapper {
+        position: relative;
+    }
+</style>
+</head>
+<body>
+
+<div class="banner-wrapper">
+    <div class="banner transition hover:scale-105">
+        <div><img src="Dang.gif" alt="Image 1"></div>
+        <div><img src="boh.GIF" alt="Image 2"></div>
+        <div><img src="Placeholder.gif" alt="Image 3"></div>
+    </div>
+    <div class="overlay ">Work in Progress</div>
+</div>
+</body>
+</html>
+
+<div class="mt-10 flex flex-col items-start gap-6 border-t-2 border-white/20 pt-8 sm:flex-row sm:items-center">
+
+<section id="contact" class="border-t-2 border-white/20 `dark:border-ink/20` py-16"></section>
+
+<script src="script.js"></script>
+<!-- ===================== ONLY EDIT ABOVE THIS LINE ===================== -->
+
+</body>
+</html>
