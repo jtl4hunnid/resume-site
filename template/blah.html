@@ -121,6 +121,73 @@
 <div class="mt-10 flex flex-col items-start gap-6 border-t-2 border-white/20 pt-8 sm:flex-row sm:items-center">
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Text and Image Side by Side</title>
+<style>
+  /* Container for text and image */
+  .container {
+    display: flex;               /* Enables side-by-side layout */
+    align-items: center;         /* Vertically center content */
+    justify-content: space-between; /* Space between text and image */
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    gap: 20px;                    /* Space between items */
+  }
+
+  /* Text styling */
+  .text {
+    flex: 1;                      /* Take available space */
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  /* Image styling */
+  .image {
+    flex: 1;                      /* Take available space */
+    text-align: right;            /* Align image to the right */
+  }
+
+  .image img {
+    max-width: 100%;              /* Responsive image */
+    height: auto;
+    border-radius: 8px;           /* Optional rounded corners */
+  }
+
+  /* Responsive: Stack on small screens */
+  @media (max-width: 600px) {
+    .container {
+      flex-direction: column;     /* Stack vertically */
+      text-align: center;
+    }
+    .image {
+      text-align: center;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="text">
+    <h2>Welcome to My Website</h2>
+    <p>
+      This is a sample paragraph on the left side.  
+      You can add any text here to describe your content, product, or service.
+    </p>
+  </div>
+  <div class="image">
+    <img src="Dang.gif" alt="Sample Image">
+  </div>
+</div>
+</body>
+</html>
+
+
 </html>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
